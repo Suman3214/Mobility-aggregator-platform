@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobility Aggregator Platform</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <header>
+        <h1>Mobility Aggregator Platform</h1>
+    </header>
+
+    <main>
+        <section id="input-section">
+            <h2>Add a New Transport Option</h2>
+            <form id="transport-form">
+                <label for="type">Type of Transport:</label>
+                <select id="type">
+                    <option value="Car">Car</option>
+                    <option value="Bike">Bike</option>
+                    <option value="Bus">Bus</option>
+                    <option value="lorry">lorry</option>
+                    <option value="scooty">scooty</option>
+                    <option value="tyre">tyre</option>
+                </select>
+
+                <label for="description">Description:</label>
+                <input type="text" id="description" placeholder="Enter description">
+
+                <label for="price">Price:</label>
+                <input type="number" id="price" placeholder="Enter price">
+
+                <label for="availability">Available?</label>
+                <select id="availability">
+                    <option value="Available">Available</option>
+                    <option value="Not Available">Not Available</option>
+                </select>
+
+                <button type="submit">Add Transport</button>
+            </form>
+        </section>
+
+        <section id="result-section">
+            <h2>Available Transport Options</h2>
+            <ul id="transport-list"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mobility Aggregator</p>
+    </footer>
+
+    <script src="inde.js"></script>
+</body>
+</html>
